@@ -1,0 +1,221 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+.body {
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 1300px;
+    margin: 50px auto;
+    padding: 5px;
+    background-color: rgba(142, 217, 223, 0.856);
+    border-radius: 12px;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #1a1818, #1f1d1d);
+    box-shadow: 26px 26px 57px #0e0d0d,
+        -26px -26px 57px #2c2929;
+}
+
+.box{
+    height: 80px;
+    width: 1280px;
+    background-color: #6074aaf8;
+    margin: 10px auto;
+    padding-top: 30px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 0px;
+}
+.id {
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(250, 250, 7, 0.959);
+    font-size:xx-large;
+}
+
+
+.box2 {
+    height: 400px;
+    width: 1280px;
+    background-color: black;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.footer {
+
+    height: 70px;
+    width: 1300px;
+    margin-top:-20px;
+    background-color: rgb(77, 119, 119);
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 12px;
+    text-align: center;
+    padding-top:20px;
+    color:aliceblue
+}
+
+.text {
+    height: 40px;
+    width: 400px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size:20px;
+    color: aliceblue;
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-size: xx-large;
+
+}
+
+.icons {
+    height: 30px;
+    width: 500px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size:25px;
+    color: aliceblue;
+}
+
+.icon1 {
+    margin-left: 10px;
+    margin-right: -200px;
+    
+
+}
+
+.icon2 {
+    margin-left: 10px;
+    margin-right: -200px;
+}
+
+.icon3 {
+    margin-left: 10px;
+    margin-right: -200px;
+}
+
+.icon4 {
+    margin-left: 10px;
+    margin-right: -200px;
+}
+
+.icon5 {
+    margin-right: -200px;
+}
+
+.icon6 {
+    margin-right: 10px;
+    margin-right: 30px;
+
+}
+
+.contents {
+    width: 270px;
+    height: 350px;
+    color: aliceblue;
+    background-color: aliceblue;
+    margin-right: 50px;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 25px;
+    background: linear-gradient(145deg, #0d0b0b, #0f0d0d);
+    box-shadow: 35px 35px 70px #060505,
+        -35px -35px 70px #161313;
+
+}
+
+
+.links {
+    width: 270px;
+    height: 350px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: aliceblue;
+    margin-right: 50px;
+    border-radius: 25px;
+    background: linear-gradient(145deg, #0d0b0b, #0f0d0d);
+    box-shadow: 35px 35px 70px #060505,
+        -35px -35px 70px #161313;
+
+}
+
+.contact {
+    width: 270px;
+    height: 350px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: aliceblue;
+    margin-right: 50px;
+    border-radius: 25px;
+    background: linear-gradient(145deg, #0d0b0b, #0f0d0d);
+    box-shadow: 35px 35px 70px #060505,
+        -35px -35px 70px #161313;
+
+}
+
+.web {
+    width: 270px;
+    height: 350px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: aliceblue;
+    margin-right: 50px;
+    border-radius: 25px;
+    background: linear-gradient(145deg, #0d0b0b, #0f0d0d);
+    box-shadow: 35px 35px 70px #060505,
+        -35px -35px 70px #161313;
+
+}
+
+ @media(max-width:576px){
+    .container{
+        display: block;
+    }
+    .top {
+        display: block;
+    }
+    .middle {
+        display: block;
+    }
+    .bottom {
+
+        display: block;
+    }
+    .body{
+        display: block;
+    }
+    .companyname{
+
+        display: block;
+    }
+    .products {
+        display: block;
+    }
+    .usefulllinks{
+        display: block;
+    }
+    .contact{
+        display: block;
+
+    }
+    .text{
+        display: block;
+
+    }
+    .icons{
+        display: block;
+
+    }
+
+} 
